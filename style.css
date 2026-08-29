@@ -208,12 +208,13 @@ a{color:inherit;text-decoration:none;}
 .badge-card:hover{box-shadow:0 22px 45px rgba(0,0,0,.6);}
 
 @media (max-width:860px){
-  .badges{gap:1.2rem;padding:3rem 6%;justify-content:center;}
-  .badge-wrap{flex:0 0 130px;}
-  .badge-card{width:130px;height:130px;padding:1rem;}
-  .badge-icon{width:34px;}
-  .badge-watermark{font-size:1.6rem;}
-  .badge-card p{font-size:1.15rem;left:1rem;right:1rem;}
+  .badges{gap:1.6rem;padding:3rem 6%;justify-content:center;}
+  .badge-wrap{flex:0 0 220px;}
+  .badge-card{width:220px;height:220px;padding:1.3rem;}
+  .badge-icon{width:44px;}
+  .badge-watermark,
+  .tilt-1 .badge-watermark,.tilt-2 .badge-watermark,.tilt-3 .badge-watermark,.tilt-4 .badge-watermark{font-size:2.4rem;}
+  .badge-card p{font-size:1.05rem;left:1.4rem;right:1.4rem;}
   .tilt-1,.tilt-2,.tilt-3,.tilt-4{margin-top:0;}
 }
 
@@ -319,9 +320,10 @@ a{color:inherit;text-decoration:none;}
 }
 
 @media (max-width:860px){
-  .parchment{padding:3rem 1.8rem 4rem;}
-  .deco-seal{width:54px;top:-1rem;right:1.2rem;}
-  .parchment-seal{width:80px;bottom:0;left:-1.2rem;}
+  .parchment{aspect-ratio:auto;background-size:cover;padding:2.6rem 1.4rem;}
+  .parchment p{font-size:.82rem;line-height:1.55;margin-bottom:1rem;}
+  .deco-seal{width:44px;top:-.8rem;right:.6rem;}
+  .parchment-seal{width:56px;bottom:-.6rem;left:-.6rem;}
 }
 
 /* ---------- services ---------- */
