@@ -382,7 +382,16 @@ a{color:inherit;text-decoration:none;}
 .contact-inner{max-width:640px;margin:0 auto;}
 .contact h2{font-family:var(--serif);font-weight:500;font-size:clamp(2rem,4.4vw,3.2rem);line-height:1.3;margin:.6rem 0 1.2rem;}
 .contact h2 .script{font-size:1.5em;}
-.contact > .contact-inner > p{color:var(--ink-dim);margin-bottom:3rem;}
+.contact > .contact-inner > p{color:var(--ink-dim);margin-bottom:1.2rem;}
+.contact-social{
+  display:inline-block;color:var(--accent);font-size:.95rem;letter-spacing:.03em;
+  margin-bottom:3rem;position:relative;padding-bottom:2px;
+}
+.contact-social::after{
+  content:"";position:absolute;left:0;bottom:0;width:100%;height:1px;background:var(--accent);
+  opacity:.5;transition:opacity .3s var(--ease);
+}
+.contact-social:hover::after{opacity:1;}
 
 .contact-form{text-align:left;}
 .form-row{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;}
