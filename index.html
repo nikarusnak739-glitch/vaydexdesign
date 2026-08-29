@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>vaydexdesign — веб-дизайн та розробка сайтів</title>
+<meta name="description" content="vaydexdesign — дизайн та розробка сайтів під ключ: від ідеї до готового рішення, яке продає.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Great+Vibes&family=Italiana&family=Petit+Formal+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+<div class="progress-bar" id="progressBar"></div>
+
+<header class="header" id="header">
+  <a href="#top" class="logo"><span class="logo-orange">vaydex</span><span class="logo-white">design</span></a>
+  <nav class="nav" id="nav">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Меню">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="assets/hero-bg-2.webm" type="video/webm">
+      <source src="assets/hero-bg.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-scatter">
+      <p class="hs-tagline script reveal-fade" data-delay="0">Твій вебдизайнер</p>
+      <p class="hs-quote-top reveal-fade" data-delay="1">Сайт, який працює на твій бізнес: приваблює клієнтів і залишає перше враження, яке продає</p>
+      <p class="hs-quote-mid reveal-fade" data-delay="2">«Кожен сайт — це інструмент для бізнесу: гарний, зрозумілий, ефективний»</p>
+      <p class="hs-sub reveal-fade" data-delay="3">Створюю сайти з настроєм, щоб бренд запам'ятовувався, а не губився в стрічці</p>
+      <a href="#work" class="hs-cta reveal-fade" data-delay="4">переглянути роботи</a>
+    </div>
+  </section>
+
+  <!-- BADGES -->
+  <div class="badges">
+    <div class="badge-wrap">
+      <div class="badge-card tilt-1 reveal-up" data-delay="0">
+        <span class="badge-watermark">keys</span>
+        <img class="badge-icon badge-icon-tr reveal-pop" style="transition-delay:.75s" src="assets/icon-key.png" alt="">
+        <img class="badge-icon badge-icon-bl reveal-pop" style="transition-delay:.95s" src="assets/icon-key.png" alt="">
+        <p>Сайти під ключ</p>
+      </div>
+    </div>
+    <div class="badge-wrap">
+      <div class="badge-card tilt-2 reveal-up" data-delay="1">
+        <span class="badge-watermark">screan</span>
+        <img class="badge-icon badge-icon-tl reveal-pop" style="transition-delay:.85s" src="assets/icon-laptop.png" alt="">
+        <img class="badge-icon badge-icon-br reveal-pop" style="transition-delay:1.05s" src="assets/icon-phone.png" alt="">
+        <p>Адаптивний дизайн під будь-який екран</p>
+      </div>
+    </div>
+    <div class="badge-wrap">
+      <div class="badge-card tilt-3 reveal-up" data-delay="2">
+        <span class="badge-watermark">idea</span>
+        <img class="badge-icon badge-icon-tr reveal-pop" style="transition-delay:.95s" src="assets/icon-bulb.png" alt="">
+        <img class="badge-icon badge-icon-bl reveal-pop" style="transition-delay:1.15s" src="assets/icon-laptop-hands.png" alt="">
+        <p>Від ідеї до готового сайту</p>
+      </div>
+    </div>
+    <div class="badge-wrap">
+      <div class="badge-card tilt-4 reveal-up" data-delay="3">
+        <span class="badge-watermark">sell</span>
+        <img class="badge-icon badge-icon-tl reveal-pop" style="transition-delay:1.05s" src="assets/deco-money-heart.png" alt="">
+        <img class="badge-icon badge-icon-br reveal-pop" style="transition-delay:1.25s" src="assets/icon-growth.png" alt="">
+        <p>Дизайн, що продає, а не просто виглядає гарно</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- WORK -->
+  <section class="section" id="work">
+    <span class="section-label reveal-up">Work</span>
+    <div class="section-head reveal-up">
+      <span class="tag">Портфоліо</span>
+      <h2>Останні роботи</h2>
+      <p>Кожен проєкт — це не просто макет, а рішення, яке працює на бізнес клієнта.</p>
+    </div>
+
+    <div class="work-grid">
+      <article class="work-card reveal-up" data-delay="0">
+        <div class="work-media">
+          <img src="assets/work-streamair.jpg" alt="StreamAIR — фарби та трафарети для аерографії" loading="lazy">
+          <div class="work-overlay">
+            <span class="work-view">Переглянути</span>
+          </div>
+        </div>
+        <div class="work-info">
+          <h3>StreamAIR</h3>
+          <p>Фарби та трафарети для аерографії</p>
+          <div class="work-tags"><span>E-commerce</span><span>Craft</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <span class="section-label reveal-up">About</span>
+    <div class="parchment-wrap">
+      <img class="deco-seal reveal-fade" src="assets/icon-wax-seal.png" alt="" aria-hidden="true">
+      <img class="parchment-seal reveal-fade" src="assets/icon-quill-trim.png" alt="" aria-hidden="true">
+      <div class="parchment reveal-up" data-delay="1">
+        <p>Я вайдекс - веб-дизайнерка, яка перетворює ідеї на сайти з характером. Люблю дизайн, який має свій настрій, деталі, які запам'ятовуються, і функціонал, у якому не треба розбиратися - усе інтуїтивно зрозуміло з першого кліку.</p>
+        <p>Не працюю за шаблонами й не веду десятки проєктів одночасно - кожному клієнту приділяю стільки уваги, скільки потрібно, щоб сайт вийшов саме таким, яким його бачить бренд. А те, що я вмію, найкраще показує портфоліо - заходь у розділ «Роботи» і дивись сама.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section services" id="services">
+    <div class="services-watermark script" aria-hidden="true">vaydexdesign</div>
+    <img class="services-sparkler" src="assets/icon-sparkler.png" alt="" aria-hidden="true">
+    <span class="section-label reveal-up">Services</span>
+
+    <div class="scatter-cards">
+      <div class="scatter-card tilt-price reveal-up" data-delay="0">
+        <img class="deco-money" src="assets/icon-wax-seal.png" alt="" aria-hidden="true">
+        <h3>Ціни та умови оплати:</h3>
+        <ul>
+          <li>Односторінковий сайт (лендінг) — від 3000 до 6000 грн, 100% передоплата</li>
+          <li>Багатосторінковий сайт (портфоліо, корпоративний) — від 6000 до 12000 грн, 30–50% аванс, решта перед здачею</li>
+          <li>Інтернет-магазин — від 12000 до 25000+ грн (залежить від кількості товарів), 30–50% аванс, решта перед здачею</li>
+        </ul>
+      </div>
+
+      <div class="scatter-card tilt-process reveal-up" data-delay="1">
+        <img class="deco-money" src="assets/icon-wax-seal.png" alt="" aria-hidden="true">
+        <h3>Принцип роботи</h3>
+        <ol>
+          <li>Заявка та знайомство — обговорюємо ідею та цілі</li>
+          <li>Бриф — збираю референси, стиль, контент</li>
+          <li>Дизайн-концепція — показую перший варіант</li>
+          <li>Розробка та правки — доводжу сайт до робочого стану</li>
+          <li>Запуск і підтримка — публікація сайту, супровід після старту</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="contact-inner">
+      <span class="tag reveal-up">Контакти</span>
+      <h2 class="reveal-up" data-delay="1">Маєш ідею?<br><span class="script accent">Обговорімо</span> її.</h2>
+      <p class="reveal-up" data-delay="2">Розкажи трохи про проєкт — і я напишу у відповідь протягом дня.</p>
+
+      <form class="contact-form reveal-up" data-delay="3" id="contactForm">
+        <div class="form-row">
+          <div class="field">
+            <input type="text" id="name" name="name" required placeholder=" ">
+            <label for="name">Ім'я</label>
+          </div>
+          <div class="field">
+            <input type="text" id="contact-info" name="contact" required placeholder=" ">
+            <label for="contact-info">Email або Telegram</label>
+          </div>
+        </div>
+        <div class="field">
+          <textarea id="message" name="message" rows="3" required placeholder=" "></textarea>
+          <label for="message">Про твій проєкт</label>
+        </div>
+        <button type="submit" class="btn btn-light submit-btn">
+          <span>Надіслати</span>
+        </button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <a href="#top" class="logo"><span class="logo-orange">vaydex</span><span class="logo-white">design</span></a>
+  <div class="footer-socials">
+    <a href="#" aria-label="Instagram">Instagram</a>
+    <a href="#" aria-label="Telegram">Telegram</a>
+    <a href="#" aria-label="Behance">Behance</a>
+  </div>
+  <p>© 2026 vaydexdesign. Усі права захищено.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
