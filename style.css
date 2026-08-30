@@ -380,9 +380,7 @@ a{color:inherit;text-decoration:none;}
 /* ---------- contact ---------- */
 .contact{text-align:center;}
 .contact-inner{max-width:640px;margin:0 auto;}
-.contact h2{font-family:var(--serif);font-weight:500;font-size:clamp(2rem,4.4vw,3.2rem);line-height:1.3;margin:.6rem 0 1.2rem;}
-.contact h2 .script{font-size:1.5em;}
-.contact > .contact-inner > p{color:var(--ink-dim);margin-bottom:1.2rem;}
+.contact > .contact-inner > p{color:var(--ink-dim);margin-bottom:1.2rem;font-size:1.1rem;}
 .contact-social{
   display:inline-block;color:var(--accent);font-size:.95rem;letter-spacing:.03em;
   margin-bottom:3rem;position:relative;padding-bottom:2px;
@@ -392,26 +390,6 @@ a{color:inherit;text-decoration:none;}
   opacity:.5;transition:opacity .3s var(--ease);
 }
 .contact-social:hover::after{opacity:1;}
-
-.contact-form{text-align:left;}
-.form-row{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;}
-.field{position:relative;margin-bottom:1.4rem;}
-.field input,.field textarea{
-  width:100%;background:transparent;border:none;border-bottom:1px solid var(--line);
-  color:var(--ink);font-family:var(--sans);font-size:1rem;padding:.9rem 0;resize:none;
-  transition:border-color .35s var(--ease);
-}
-.field input:focus,.field textarea:focus{outline:none;border-color:var(--accent);}
-.field label{
-  position:absolute;left:0;top:.9rem;color:var(--ink-faint);font-size:1rem;
-  pointer-events:none;transition:all .3s var(--ease);
-}
-.field input:focus + label,.field input:not(:placeholder-shown) + label,
-.field textarea:focus + label,.field textarea:not(:placeholder-shown) + label{
-  top:-1rem;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);
-}
-.submit-btn{margin-top:.8rem;width:100%;position:relative;overflow:hidden;}
-.submit-btn span{position:relative;z-index:1;}
 
 /* ---------- footer ---------- */
 .footer{
@@ -441,6 +419,5 @@ a{color:inherit;text-decoration:none;}
   .burger.open span:nth-child(3){transform:translateY(-6px) rotate(-45deg);}
 
   .work-grid{grid-template-columns:1fr;}
-  .form-row{grid-template-columns:1fr;}
   .section{padding:6rem 6%;}
 }

@@ -64,19 +64,3 @@ window.addEventListener('load', () => {
     requestAnimationFrame(() => el.classList.add('in'));
   });
 });
-
-// ---------- contact form ----------
-const form = document.getElementById('contactForm');
-if (form) {
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const btn = form.querySelector('.submit-btn span');
-    const original = btn.textContent;
-    btn.textContent = 'Надіслано ✓';
-    form.querySelector('.submit-btn').style.background = 'var(--accent)';
-    setTimeout(() => {
-      btn.textContent = original;
-      form.reset();
-    }, 2400);
-  });
-}
