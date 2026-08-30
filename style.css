@@ -216,6 +216,7 @@ a{color:inherit;text-decoration:none;}
   .tilt-1 .badge-watermark,.tilt-2 .badge-watermark,.tilt-3 .badge-watermark,.tilt-4 .badge-watermark{font-size:2.4rem;}
   .badge-card p{font-size:1.05rem;left:1.4rem;right:1.4rem;}
   .tilt-1,.tilt-2,.tilt-3,.tilt-4{margin-top:0;}
+  .badge-icon.reveal-pop{transition-delay:.1s !important;}
 }
 
 .btn{
@@ -229,8 +230,9 @@ a{color:inherit;text-decoration:none;}
 
 /* ---------- section label ---------- */
 .section-label{
-  display:block;text-align:center;font-family:var(--serif);font-style:italic;
-  font-size:1.3rem;color:var(--ink-faint);margin-bottom:2.5rem;
+  display:block;text-align:center;font-family:var(--nav-font);font-style:normal;
+  text-transform:uppercase;letter-spacing:.08em;
+  font-size:1.3rem;color:#E59D52;margin-bottom:2.5rem;
 }
 
 /* ---------- sections ---------- */
