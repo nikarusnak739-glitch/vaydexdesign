@@ -375,6 +375,11 @@ a{color:inherit;text-decoration:none;}
   .scatter-card{width:100%;}
   .tilt-price{margin-left:0;}
   .tilt-process{margin-top:2.5rem;}
+  .services-watermark{
+    top:1.6rem;left:50%;transform:translate(-50%,0) rotate(0deg);
+    font-size:2.6rem;opacity:.22;white-space:normal;text-align:center;line-height:1;
+  }
+  .services-sparkler{display:none;}
 }
 
 /* ---------- contact ---------- */
